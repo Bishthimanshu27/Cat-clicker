@@ -1,16 +1,47 @@
 .container {
-    height: 500px;
+    height: 720px;
     width: 800px;
     display: block;
     margin: auto;
-    border: 1px solid black;
-    padding: 20px;
-    background-color: chartreuse
+   
+    padding: 40px;
+
+}
+
+.box{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.smallbox {
+    width: 200px;
+    height: 100%;
 }
 
 .image {
-    width: 50%;
+    display: block;
+    width: 150px;
+    height: 150px;
+
 }
+
+.copybox {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 70px;
+}
+.copybox img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .copyimage {
+    display: none;
+} */
+
 img:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s; 
@@ -32,10 +63,13 @@ img:hover {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-.head {
-    text-align: center
-}
+
 
 h2 {
     text-align: center
+}
+
+.cat1, .cat2, .cat3, .cat4, .cat5 {
+    text-align: center;
+    padding: 10px;
 }
